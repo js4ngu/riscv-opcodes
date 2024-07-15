@@ -449,3 +449,12 @@ vwmaccu.vx     31..26=0x3c vm vs2 rs1 14..12=0x6 vd 6..0=0x57
 vwmacc.vx      31..26=0x3d vm vs2 rs1 14..12=0x6 vd 6..0=0x57
 vwmaccus.vx    31..26=0x3e vm vs2 rs1 14..12=0x6 vd 6..0=0x57
 vwmaccsu.vx    31..26=0x3f vm vs2 rs1 14..12=0x6 vd 6..0=0x57
+
+#Custom Instruction Section
+# Vector mod
+# OPIVI
+vmod.vi        31..26=0x01 vm vs2 simm5 14..12=0x3 vd 6..0=0x57
+# OPIVX
+vmod.vx        31..26=0x08 vm vs2 rs1 14..12=0x4 vd 6..0=0x57
+# OPIVV
+vmod.vv         31..26=0x03 vm vs2 vs1 14..12=0x0 vd 6..0=0x57
