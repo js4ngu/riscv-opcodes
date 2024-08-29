@@ -457,4 +457,12 @@ vmod.vi        31..26=0x01 vm vs2 simm5 14..12=0x3 vd 6..0=0x57
 # OPIVX
 vmod.vx        31..26=0x08 vm vs2 rs1 14..12=0x4 vd 6..0=0x57
 # OPIVV
-vmod.vv         31..26=0x03 vm vs2 vs1 14..12=0x0 vd 6..0=0x57
+vmod.vv        31..26=0x03 vm vs2 vs1 14..12=0x0 vd 6..0=0x57
+
+# Position Encoding
+#Sinusoidal positional encoding
+vfsinpe.vv      31..26=0x15 vm vs2 vs1 14..12=0x1 vd 6..0=0x57
+
+#RoPE
+vfrope.vf        31..26=0x11 vm vs2 rs1 14..12=0x5 vd 6..0=0x57
+
