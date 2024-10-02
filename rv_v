@@ -465,4 +465,6 @@ vfsinpe.vv      31..26=0x15 vm vs2 vs1 14..12=0x1 vd 6..0=0x57
 
 #RoPE
 vfrope.vf        31..26=0x11 vm vs2 rs1 14..12=0x5 vd 6..0=0x57
+#OPFVX
 
+vfrope.fvx       31..26=0x12 vm vs2 rs1 14..12=0x5 vd 6..0=0x57
